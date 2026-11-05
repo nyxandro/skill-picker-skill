@@ -2,20 +2,18 @@
 name: skill-picker
 description: >
   Pick, install and audit project-level agent skills for the current project: inventory the
-  stack by layers (languages, frameworks and libraries, the agent and LLM layer, external APIs,
-  frontend, backend, data, testing, build, deploy and CI, observability), rate how likely the
-  agent is to write outdated code for each technology, find official or otherwise strong skills,
-  vet them by reading their files, install the approved ones into .agents/skills with links in
-  .claude/skills, and report a coverage table (✅ covered, ⚪ deliberately left to docs lookup,
-  ❌ not covered). Always use it when the owner asks which skills a project needs or what they
-  cover: "pick skills for this project", "what skills should we install here", "are there
-  skills for our stack", "what is covered by skills and what isn't", "update the coverage
-  table", "install skills into the project", "is there a skill for X for this project", "check
-  the project's skills", or, as an audit without any web search, when work starts in a new or
-  unfamiliar project and the agent should know its stack first. Not for the owner's global
-  skill set, which the owner manages by hand,
-  and not for writing a new skill. The owner may phrase this in another language; match on
-  meaning.
+  stack by layers, rate how likely the agent is to write outdated code for each technology, find
+  official or otherwise strong skills, vet them by reading their files, install the approved
+  ones into .agents/skills with links in .claude/skills, and report a coverage table (✅ covered,
+  ⚪ left to docs lookup, ❌ not covered). Always use it when the owner asks which skills a
+  project needs or what they cover: "pick skills for this project", "what skills should we
+  install here", "are there skills for our stack", "what is covered by skills and what isn't",
+  "install skills into the project", "is there a skill for X here", "check the project's
+  skills", or as an audit without web search when work starts in a new or unfamiliar project.
+  Not for the owner's global skill set or for writing a new skill. The owner may phrase this in
+  another language; match on meaning.
+metadata:
+  version: "1.0.0"
 ---
 
 # Skill picker
