@@ -9,6 +9,14 @@ numbered MAJOR.MINOR.PATCH.
 - **MAJOR** (2.0.0) changes the install layout, the coverage table or how the skill works with
   the owner.
 
+## [1.1.0] - 2026-11-06
+
+### Changed
+
+- The description says what the skill does and when to use it, without retelling the steps of
+  the work. With the steps in the description, the model can follow them and skip the body of the
+  skill, as Superpowers' tests showed. The trigger phrases are unchanged.
+
 ## [1.0.0] - 2026-11-06
 
 The first numbered version.

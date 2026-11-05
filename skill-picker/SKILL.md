@@ -1,11 +1,10 @@
 ---
 name: skill-picker
 description: >
-  Pick, install and audit project-level agent skills for the current project: inventory the
-  stack by layers, rate how likely the agent is to write outdated code for each technology, find
-  official or otherwise strong skills, vet them by reading their files, install the approved
-  ones into .agents/skills with links in .claude/skills, and report a coverage table (✅ covered,
-  ⚪ left to docs lookup, ❌ not covered). Always use it when the owner asks which skills a
+  Picks, installs and audits project-level agent skills for the current project, so that every
+  technology in its stack the agent is likely to get wrong from memory is covered by a vetted
+  skill, and shows the coverage in one table (✅ covered, ⚪ left to docs lookup, ❌ not
+  covered). Always use it when the owner asks which skills a
   project needs or what they cover: "pick skills for this project", "what skills should we
   install here", "are there skills for our stack", "what is covered by skills and what isn't",
   "install skills into the project", "is there a skill for X here", "check the project's
@@ -13,7 +12,7 @@ description: >
   Not for the owner's global skill set or for writing a new skill. The owner may phrase this in
   another language; match on meaning.
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Skill picker
